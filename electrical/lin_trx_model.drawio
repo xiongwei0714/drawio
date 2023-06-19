@@ -1,41 +1,79 @@
-<mxfile host="app.diagrams.net" modified="2023-06-19T03:33:28.748Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="uuOuJNP6XSkRbCiS0J5H" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-19T05:48:42.201Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="jQgEs77CuwaQ469fQb6A" version="21.3.8" type="github">
   <diagram name="Page-1" id="Hd1NlsPU-bSHgdVdSUGW">
-    <mxGraphModel dx="868" dy="513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1481" dy="875" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="zletJsl4VbaATAOqVHQm-18" value="D2A_LIN_TX" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;verticalAlign=bottom;" edge="1" parent="1" target="zletJsl4VbaATAOqVHQm-16">
+        <mxCell id="zletJsl4VbaATAOqVHQm-16" value="LIN TRX" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;container=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="420" width="300" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="zletJsl4VbaATAOqVHQm-68" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="zletJsl4VbaATAOqVHQm-16" target="zletJsl4VbaATAOqVHQm-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zletJsl4VbaATAOqVHQm-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="zletJsl4VbaATAOqVHQm-16" target="zletJsl4VbaATAOqVHQm-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zletJsl4VbaATAOqVHQm-18" value="D2A_LIN_TX" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;verticalAlign=bottom;strokeWidth=2;" edge="1" parent="1" target="zletJsl4VbaATAOqVHQm-16">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="170" y="485" as="sourcePoint" />
+            <mxPoint x="170" y="550" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zletJsl4VbaATAOqVHQm-16" value="LIN TRX" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="420" width="170" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="zletJsl4VbaATAOqVHQm-26" value="D2A_LIN_NORMAL_MODE" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;verticalAlign=bottom;" edge="1" parent="1" target="zletJsl4VbaATAOqVHQm-16">
+        <mxCell id="zletJsl4VbaATAOqVHQm-26" value="D2A_LIN_NORMAL_MODE" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;verticalAlign=bottom;strokeWidth=2;" edge="1" parent="1" target="zletJsl4VbaATAOqVHQm-16">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="348" y="449" as="targetPoint" />
-            <mxPoint x="170" y="453" as="sourcePoint" />
+            <mxPoint x="348" y="478" as="targetPoint" />
+            <mxPoint x="170" y="486" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="281" y="453" />
+              <mxPoint x="170" y="485" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="zletJsl4VbaATAOqVHQm-27" value="D2A_LIN_RX" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;verticalAlign=bottom;" edge="1" parent="1" target="zletJsl4VbaATAOqVHQm-16">
+        <mxCell id="zletJsl4VbaATAOqVHQm-27" value="D2A_LIN_RX" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;verticalAlign=bottom;startArrow=classic;startFill=1;endArrow=none;endFill=0;strokeWidth=2;" edge="1" parent="1" target="zletJsl4VbaATAOqVHQm-16">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="342" y="508" as="targetPoint" />
-            <mxPoint x="170" y="518" as="sourcePoint" />
+            <mxPoint x="342" y="596" as="targetPoint" />
+            <mxPoint x="170" y="615" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="170" y="518" />
-              <mxPoint x="266" y="518" />
+              <mxPoint x="180" y="615" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="zletJsl4VbaATAOqVHQm-28" value="LIN_M" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;verticalAlign=bottom;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="zletJsl4VbaATAOqVHQm-16">
+        <mxCell id="zletJsl4VbaATAOqVHQm-28" value="LIN_M" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;verticalAlign=bottom;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;strokeWidth=2;" edge="1" parent="1" source="zletJsl4VbaATAOqVHQm-16">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="710" y="485" as="targetPoint" />
-            <mxPoint x="547" y="515" as="sourcePoint" />
+            <mxPoint x="760" y="550" as="targetPoint" />
+            <mxPoint x="547" y="610" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="zletJsl4VbaATAOqVHQm-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.72;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="zletJsl4VbaATAOqVHQm-42" target="zletJsl4VbaATAOqVHQm-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zletJsl4VbaATAOqVHQm-42" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.logic_gate;operation=and;" vertex="1" parent="1">
+          <mxGeometry x="470" y="475" width="71" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zletJsl4VbaATAOqVHQm-67" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.7;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="zletJsl4VbaATAOqVHQm-45" target="zletJsl4VbaATAOqVHQm-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zletJsl4VbaATAOqVHQm-45" value="" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.resistors.resistor_1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="595" y="517" width="55" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="zletJsl4VbaATAOqVHQm-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="zletJsl4VbaATAOqVHQm-46" target="zletJsl4VbaATAOqVHQm-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zletJsl4VbaATAOqVHQm-46" value="V&lt;sub style=&quot;font-size: 10px;&quot;&gt;dd&lt;/sub&gt;" style="verticalLabelPosition=top;verticalAlign=bottom;shape=mxgraph.electrical.signal_sources.vdd;shadow=0;dashed=0;align=center;strokeWidth=1;fontSize=10;html=1;flipV=1;" vertex="1" parent="1">
+          <mxGeometry x="607.5" y="440" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zletJsl4VbaATAOqVHQm-66" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.7;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="zletJsl4VbaATAOqVHQm-49" target="zletJsl4VbaATAOqVHQm-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zletJsl4VbaATAOqVHQm-49" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.mosfets1.n-channel_mosfet_1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="570" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zletJsl4VbaATAOqVHQm-52" value="V&lt;sub style=&quot;font-size: 10px;&quot;&gt;ss&lt;/sub&gt;" style="pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.signal_sources.vss2;fontSize=10;flipV=1;" vertex="1" parent="1">
+          <mxGeometry x="607.5" y="645" width="30" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="zletJsl4VbaATAOqVHQm-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="zletJsl4VbaATAOqVHQm-55" target="zletJsl4VbaATAOqVHQm-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zletJsl4VbaATAOqVHQm-55" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.inverter_2" vertex="1" parent="1">
+          <mxGeometry x="370" y="530" width="60" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
