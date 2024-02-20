@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-19T13:20:51.919Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="hMWOvD8MwPhkx9UHBfxJ" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-20T02:47:50.673Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="NRc6ElMchR1w_GJQWIGf" version="23.1.5" type="github">
   <diagram name="Page-1" id="Gb3lcBezUdDrgLFfBF2O">
-    <mxGraphModel dx="1259" dy="730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1259" dy="730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -9,9 +9,6 @@
         </mxCell>
         <mxCell id="yrEbets0NNJ-oAbuuwBB-2" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.inverter_2;movableLabel=1;" parent="1" vertex="1">
           <mxGeometry x="150" y="190" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="yrEbets0NNJ-oAbuuwBB-3" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.d_type_flip-flop;" parent="1" vertex="1">
-          <mxGeometry x="290" y="400" width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="yrEbets0NNJ-oAbuuwBB-4" value="Mux" style="shadow=0;dashed=0;align=center;html=1;strokeWidth=1;shape=mxgraph.electrical.abstract.mux2;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="570" y="206" width="80" height="120" as="geometry" />
@@ -36,9 +33,6 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hpQbeCEYYpr7VmaYqbtR-43" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.d_type_flip-flop_with_clear_2;" vertex="1" parent="1">
-          <mxGeometry x="450" y="510" width="100" height="90" as="geometry" />
-        </mxCell>
         <mxCell id="hpQbeCEYYpr7VmaYqbtR-53" value="scan_mode" style="shape=mxgraph.arrows2.arrow;verticalLabelPosition=middle;shadow=0;dashed=0;align=center;html=1;verticalAlign=middle;strokeWidth=1;dy=0;dx=10;notch=0;labelPosition=center;" vertex="1" parent="1">
           <mxGeometry x="10" y="331" width="100" height="30" as="geometry" />
         </mxCell>
@@ -60,11 +54,22 @@
         <mxCell id="hpQbeCEYYpr7VmaYqbtR-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.375;entryY=1;entryDx=10;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hpQbeCEYYpr7VmaYqbtR-53" target="yrEbets0NNJ-oAbuuwBB-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hpQbeCEYYpr7VmaYqbtR-60" value="V&lt;sub&gt;dd&lt;/sub&gt;" style="verticalLabelPosition=top;verticalAlign=bottom;shape=mxgraph.electrical.signal_sources.vdd;shadow=0;dashed=0;align=center;strokeWidth=1;fontSize=24;html=1;flipV=1;" vertex="1" parent="1">
-          <mxGeometry x="230" y="380" width="60" height="40" as="geometry" />
+        <mxCell id="hpQbeCEYYpr7VmaYqbtR-60" value="V&lt;sub style=&quot;font-size: 12px;&quot;&gt;dd&lt;/sub&gt;" style="verticalLabelPosition=top;verticalAlign=bottom;shape=mxgraph.electrical.signal_sources.vdd;shadow=0;dashed=0;align=center;strokeWidth=1;fontSize=12;html=1;flipV=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="420" width="30" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="hpQbeCEYYpr7VmaYqbtR-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hpQbeCEYYpr7VmaYqbtR-60" target="yrEbets0NNJ-oAbuuwBB-3">
+        <mxCell id="hpQbeCEYYpr7VmaYqbtR-62" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=stencil(zVZNj4IwEP01HNcgLMgeDat3zSZ7rlilsbSkrV//fosF46BgLR42wWBn4L030+kMXpjKHJXYC3wkS5wpL/z2guCABEErqs2B9uTGOPZ9s2aowMakf/7P+fL6nJLyY055qf//EpXr21SeWZYLzvhe6uUSS6wMglSC7/CRrFWNTViOBam9R8AXzjx/qq3VFaYZZ0zLJJxJ4Lnxa3BEmGoLrZBLTVJghYWx1vGcwOpcr0aBWXvB/BWmmQNT7MS0sGAavyWmBcNbBzK3sJY2CRxFgGv8mClMtaWrYsJ0hbLdVvA9Wz/UJ6rjcK3+xAfFGUNB7S3t0dPBGqYbLnCPnA2h1JybnpyWqDpRd47GXfAD7irDLtEQgRKGO8O2g+gTEQ8XYQcBRSTDU3HtjgNykQxPRluGSzYm8CBH0esyJl8OEFBFa1tdVITvLy6HQCIIkSSvq2hBXDe5qw1oe0cnsOwjmOpxLqsnmvYHul8Cmt9nDAN8Iu4pucKnqvEiSrbMQGaYVZOg+XYAM/1w89yKK8UL2JnhpAh6N9Cae2HFPfk/3P2Fa829tOJulWvTDB6Ow7upd7Gaj9KL4Q8=);" vertex="1" parent="1">
+          <mxGeometry x="330" y="460" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hpQbeCEYYpr7VmaYqbtR-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hpQbeCEYYpr7VmaYqbtR-60" target="hpQbeCEYYpr7VmaYqbtR-62">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hpQbeCEYYpr7VmaYqbtR-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=-5;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="yrEbets0NNJ-oAbuuwBB-4" target="hpQbeCEYYpr7VmaYqbtR-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hpQbeCEYYpr7VmaYqbtR-66" value="rb_mux" style="edgeLabel;html=1;align=center;verticalAlign=bottom;resizable=0;points=[];labelPosition=center;verticalLabelPosition=top;" vertex="1" connectable="0" parent="hpQbeCEYYpr7VmaYqbtR-65">
+          <mxGeometry x="-0.9523" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
